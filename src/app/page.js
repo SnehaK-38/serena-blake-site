@@ -128,10 +128,8 @@ export default function HeroAbout() {
 
       {/* Quote Section */}
       <section className="max-w-4xl mx-auto px-6 py-16 text-center text-black">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">
-         <p>&quot;Healing doesn't mean the damage never existed. It means it no longer controls your life.&quot;</p>
+        <h2 className="text-3xl md:text-4xl font-bold mb-6">{`"Healing doesn't mean the damage never existed. It means it no longer controls your life."`}</h2>
 
-        </h2>
         <p className="text-lg md:text-xl">
           Therapy can help you process what happened while reclaiming your strength and peace, allowing you to move forward with hope and self-compassion.
         </p>
