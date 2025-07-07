@@ -138,9 +138,9 @@ export default function HeroAbout() {
       {/* Services Section */}
       <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-8 text-center bg-white">
         {[
-          { title: 'Anxiety & Stress Management', desc: 'Learn to manage anxiety and build healthier thought patterns.', img: '/service1.jpg' },
-          { title: 'Relationship Counseling', desc: 'Enhance communication, resolve conflicts, and strengthen connection.', img: '/service-2.png' },
-          { title: 'Trauma Recovery', desc: 'Heal from past trauma while reclaiming your strength.', img: '/service-3.png' },
+          { title: 'Anxiety & Stress Management', desc: 'Anxiety and stress can often make everyday life feel overwhelming. You might experience a racing heart, constant worry, or feel easily triggered by small things. Through therapy, you can learn to understand these emotions and develop effective tools to manage them, such as deep breathing, relaxation exercises, and building healthier thought patterns. This helps you feel calmer and more in control in your daily life.', img: '/service1.jpg' },
+          { title: 'Relationship Counseling', desc: 'Relationships are a source of love and support, but misunderstandings and conflicts can create challenges. Relationship counseling offers a safe space for you and your partner to openly share your feelings and needs without fear of judgment. During this process, you learn healthy communication skills, ways to understand and resolve conflicts, and steps to rebuild trust. It can help strengthen your connection and bring more understanding and closeness to your relationship.', img: '/service-2.png' },
+          { title: 'Trauma Recovery', desc: 'The effects of trauma do not end in a moment; they can leave you with ongoing negative thoughts, nightmares, and emotional pain. Trauma recovery therapy provides a safe environment where you can process painful memories at your own pace. Through this journey, you can focus on healing, develop self-compassion, and gradually reclaim your life with a sense of strength and wholeness.', img: '/service-3.png' },
         ].map((service, idx) => (
           <div key={idx} className="bg-white rounded-xl shadow-lg p-4">
             <Image src={service.img} alt={service.title} width={400} height={300} className="rounded-md w-full mb-4" />
